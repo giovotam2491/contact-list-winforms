@@ -21,5 +21,13 @@ namespace ContactList
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddContactForm addForm = new AddContactForm();
+
+            // Hiển thị form ở chế độ Dialog (chặn form chính)
+            addForm.ShowDialog();
+        }
     }
 }
